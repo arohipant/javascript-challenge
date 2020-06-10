@@ -7,7 +7,7 @@ var button = d3.select("#filter-btn");
 var inputField1 = d3.select("#datetime");
 var inputField2 = d3.select("#city");
 var resetbtn = d3.select("#reset-btn");
-var columns = ["datetime", "city", "state", "country", "shape", "durationMinutes", "comments"]
+var columns = ["datetime", "city", "state", "country", "shape", "comments"]
 
 var populate = (dataInput) => {
 
